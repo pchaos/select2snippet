@@ -1,0 +1,4 @@
+pynvim
+clipboard
+jinja2
+
