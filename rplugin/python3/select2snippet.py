@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+import sys
+
+sys.path.append("/home/user/.local/lib/python3.10/site-packages")
+
 import clipboard
 import pynvim
 from jinja2 import Environment, FileSystemLoader
