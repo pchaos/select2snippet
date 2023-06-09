@@ -1,0 +1,9 @@
+  "": {
+    "prefix": "prefixName",
+    "description": "",
+    "body": [
+    {% for line in text %}
+      {{ line|tojson }}{% if not loop.last %},{% endif %}
+    {% endfor %}
+    ]
+  }
